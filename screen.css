@@ -50,6 +50,11 @@ body {
   font-family: sans-serif;
   color: #2a2a2a; font-family:Arial, Helvetica, sans-serif}
 
+  /* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
 a {
   color: #0388a6; }
   a:hover {
