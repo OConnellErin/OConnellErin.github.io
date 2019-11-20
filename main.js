@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("mainHeader").onclick = function() {
-      this.style.color = 'orange'
-    }
-  })
+$( document ).ready(function() {
+  $( "#Test" ).click(function() {
+    $( "#Test" ).fadeOut( "slow", function() {
+    });
+  });
+});
