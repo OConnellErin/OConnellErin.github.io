@@ -20,7 +20,8 @@ time, mark, audio, video {
 text-align: center;}
 
 body {
-  line-height: 1; color: #2a2a2a; }
+  line-height: 1; color: #2a2a2a;
+  background-color: grey; }
 
 ol, ul {
   list-style: none; }
@@ -66,14 +67,3 @@ a {
     font-size: 5em;
     font-weight: bold
   }
-
-  figure#cat {
-    float: left
-  }
-
-  figure#Pug {
-    float: right
-  }
-img#cat {
-  width: 230%
-}
